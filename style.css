@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace,sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 25px auto auto auto;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px auto;
+}
+
+.choices span {
+    font-size: 3rem;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#rock{
+    background-color: hsl(276, 100%, 50%);
+    cursor: pointer;
+}
+
+#paper{
+    background-color: hsla(223, 100%, 50%, 0.516);
+    cursor: pointer;
+}
+
+#scissors{
+    background-color: hsla(240, 72%, 57%, 0.269);
+    cursor: pointer;
+}
+
+.choiceResult{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.choiceResult p{
+    margin: 0;
+    padding: 0;
+}
+
+#result{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 25px auto;
+}
+
+.winner{
+    color: limegreen;
+}
+
+.loser{
+    color: red;
+}
+
+.tie{
+    color : rgb(50, 195, 205);
+}
+
+.score{
+    font-weight: bold;
+    font-size: 2rem;
+}
